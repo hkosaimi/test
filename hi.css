@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(50, 48, 48);
+}
+.box{
+    background-color: #1d1e22;
+    width: 300px;
+    height: 140px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 50%);
+    border-radius: 6px;
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.box1{
+    top: 0;
+    left: 0;
+    font-family: monospace;
+}
+.box2{
+    top: 150px;
+    left: 50px;
+    font-family: Alata;
+}
+.box3{
+    top: 300px;
+    left: 0;
+    font-family: Alata;
+}
+
+.inner{
+    width: 400px;
+    height: 400px;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #66699f 100%);
+    border-radius: 6px;
+    box-shadow: 0 0 2px black;
+}
+.outer{
+    width: 450px;
+    height: 450px;
+    align-items: center;
+    position: relative;
+    display: flex;
+   justify-content: center;
+}
